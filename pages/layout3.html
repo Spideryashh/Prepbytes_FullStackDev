@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Backtracking | About</title>
-    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+    <head>
+        <title>Layout-3</title>
+        <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+        <link rel="stylesheet" href="style3.css">
+        <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    </head>
+    <body>
+    <!-- Navbar Section -->
 
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="pages/layout1.html">Layout 1</a><br>
-            <a href="pages/layout2.html">Layout 2</a><br>
-            <a href="pages/layout3.html">Layout 3</a><br>
-            <a href="pages/form.html">Sign Up</a><br>
+          <a href="#home" id="navbar__logo">Layout-3</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="layout1.html" class="navbar__links" id="about-page">Layout 1</a>
+            </li>
+            <li class="navbar__item">
+                <a href="layout2.html" class="navbar__links" id="about-page">Layout 2</a>
+              </li>
+              <li class="navbar__item">
+                <a href="layout3.html" class="navbar__links" id="about-page">Layout 3</a>
+              </li>
+             
+            <li class="navbar__btn">
+              <a href="form.html" class="button" id="signup">Sign Up</a>
+            </li>
+          </ul>
         </div>
       </nav>
-    <h1 class="band-name band-name-large">Backtracking</h1>
-    <span>Copyright &copy;2002 by David Matuszek</span>
 
-    <br><br>
-    <p>Backtracking is a form of recursion.</p>
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>Backtracking</h1>
+            <h2>Copyright &copy;2002 by David Matuszek</h2>
+
+            <p>Backtracking is a form of recursion.</p>
     <p>
         The usual <em>scenario</em> is that you are faced with a number of options, and you
         must choose one of these.<br> After you make your choice you will get a new set
@@ -48,9 +73,10 @@
     </p>
     <hr>
     <p>This needs an example.</p>
+    <br><br>
     <!-- absolute path mai pura image address copy paste krtai hai relative mai buss relative location specify krtain hai -->
     <img src="images/tree.gif" />
-
+    <br><br>
     <ol>
         <li>Starting at Root, your options are A and B. You choose A.</li>
         <li>At A, your options are C and D. You choose C.</li>
@@ -100,7 +126,8 @@
         |  solvable(B) returns true
         solvable(Root) returns true
         true
-    </pre>
+
+            
     
     <table border="1px" cellpadding = "10px" cellspacing="10px" align="center">
         <thead>
@@ -142,12 +169,6 @@
         <tbody></tbody>
     </table>
 
-    <br><br>
-    <a href="https://www.google.com/">Google</a>
-    <a href="author.html">Author</a>
-    <a href="https://www.prepbytes.com/">Go To Prepbytes</a>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ul_EM2xL_i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <!-- <iframe width="100%" height="315" src="https://nados.pepcoding.com/"  allowfullscreen></iframe> -->
 
     <form>
@@ -163,7 +184,7 @@
         <label id="checkbox">Are you sure?</label>
         <input type="checkbox">
         <br>
-        <input type="button" value="Submit">
+        <input type="button" value="Submit" class="button" id="signup">
 
     </fieldset>
     </form>
@@ -176,5 +197,44 @@
 
     <textarea>test</textarea>
     <h1 class="h1" style="background-color: green;">testing inline and block</h1>
+    </pre>
+            <button class="main__btn"><a href="https://www.google.com/">Google</a></button>
+            <button class="main__btn"><a href="https://www.prepbytes.com/">Prepbytes</a></button>
+            
+          </div>
+          <br><br>
+          <iframe width="400" height="250" src="https://www.youtube.com/embed/Ul_EM2xL_i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+      </div>
+
+    <div class="footer__container">
+    <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Yash Varshney</a>
+          </div>
+          <p class="website__rights">Copyright &copy;2002 by David Matuszek</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
 </body>
 </html>
