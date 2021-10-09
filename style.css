@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+}
+
+label {
+    font-family: cursive;
+}
+
+#password2 {
+    background-color: violet;
+    
+}
+
+#checkbox {
+    color:darkorange !important;
+}
+
+.h1{
+    color: bisque;
+}
+
+.fontType {
+    font-size: 20px;
+}
