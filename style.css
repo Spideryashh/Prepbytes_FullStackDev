@@ -3,7 +3,9 @@ body{
 }
 
 p {
-    font-family: cursive;
+    font-family: cursive; 
+    
+    /* ctrl + space for suggestions */
 }
 
 span {
@@ -11,6 +13,8 @@ span {
 }
 label {
     font-family: cursive;
+    font-weight: 800;
+    font-style: italic;
 }
 
 #password2 {
@@ -20,6 +24,58 @@ label {
 
 #checkbox {
     color:darkorange !important;
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: antiquewhite;
+}
+
+.linker {
+    padding:17px;
+    border: 5px solid maroon;
+    border-radius: 35px;
+}
+.image {
+    height: 350px;
+    width: 710px;
+    background-image: url(pages/images/Header_Background.jpg);
+    background-size: cover;
+}
+
+.name1 {
+    border: black solid;
+    height: 350px;
+    background-image: url(pages/images/tree.gif);
+    background-repeat: no-repeat;
+}
+
+.name {
+    border: black solid;
+    height: 350px;
+    background-image: linear-gradient(53deg,red,yellow)
+}
+
+.button {
+    
+    /* these all margin can be put in a same line in clockwise order
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 25px; */
+    margin: 10px 15px 20px 25px;
+
+    /* border: red;
+    border-style: dashed;
+    border-width: 8px; */
+    border: 3px solid purple;
+    border-radius: 17%;
+
+    /* padding:17px; gives 17px in all directions*/
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+
+    
 }
 
 .h1{
