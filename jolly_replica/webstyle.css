@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;   /* 1em=16px */
+    text-align: center;
+    line-height: 1.5;
+}
+
+.bgimg {
+    position: absolute;
+    background-image: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* use to fit image in background */
+    z-index: -1; /*used to put text inside image by decreasing img z index to -1 */
+    opacity: 0.5;
+    
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#header p{
+    color: palevioletred;
+}
+
+.btn {
+    background: #333;
+    border: 1px solid #666;
+    padding: 1em;
+    margin: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: progress;
+}
