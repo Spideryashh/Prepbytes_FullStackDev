@@ -37,15 +37,16 @@ label {
 .image {
     height: 350px;
     width: 710px;
-    background-image: url(pages/images/Header_Background.jpg);
+    background-image: url(../pages/images/Header_Background.jpg);
     background-size: cover;
 }
 
 .name1 {
     border: black solid;
     height: 350px;
-    background-image: url(pages/images/tree.gif);
+    background-image: url(../pages/images/tree.gif);
     background-repeat: no-repeat;
+    
 }
 
 .name {
