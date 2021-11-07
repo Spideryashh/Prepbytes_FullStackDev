@@ -1,0 +1,60 @@
+<head>
+
+    <style>
+        @keyframes example {
+            
+        }
+        .container {
+            display: grid;
+            gap: 20px;
+            height: 400px;
+            background: violet;
+/*             
+            align-items: center; 
+            justify-items: center;
+            justify-content: space-evenly; 
+                 */
+            text-align: center;
+            grid-template-columns: repeat(3,100px);
+            grid-template-rows: repeat(3,100px);
+            /*  grid-template-columns: 70% 1fr; */
+            /* fr will take the remaining width */
+            /* grid-template-rows: 200px 200px;  */
+            grid-template-areas: 'a b c '
+                                 'd e f';
+            
+        }
+        .container div {
+            background: tomato;
+        }
+        .item1 {
+            grid-area: a
+        }
+        .item2 {
+            grid-area: b
+        }
+        .item3 {
+            grid-area: c
+        }
+        .item4 {
+            grid-area: d
+        }
+        .item5 {
+            grid-area: e
+        }
+        .item6 {
+            grid-area: f
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+        <div class="item4">item4</div>
+        <div class="item5">item5</div>
+        <div class="item6">item6</div>
+    </div>
+    <!-- div.container>div{item$}*6 -->
+</body>
