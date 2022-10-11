@@ -61,7 +61,7 @@ function addSticky(imageElement) {
           //   sticky => top + dy
           //  sticky => left + dx
           stickyDiv.style.top = top + dy + "px";
-          stickyDiv.style.left = left +dx + "px";
+          stickyDiv.style.left = left +dx + "px";6
     
           initialX = finalX;
           initialY = finalY;
