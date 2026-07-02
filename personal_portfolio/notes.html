@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML NOTES</title>
+    </head>
+
+    <body>
+        <h1> HTML Notes</h1>
+        <p>Copyright &#169;2024 by Yash Varshney</p>
+
+        <!-- CLASS 1 NOTES -->
+        <h2>CLASS-1</h2>
+
+        <h3>Website And Webpage</h3>
+        <ul>
+            <li>A webpage is a digital document.</li>
+            <li>It must be saved with .html extension.</li>
+            <li>Collection of webpage is called Website.</li>
+        </ul>
+
+        <h3>Types Of Website</h3>
+        <table border="2px solid black">
+            <tr>
+                <td>
+                    <h3>Static</h3>
+                </td>
+                <td><h3>Dynamic</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>not changable</li>
+                        <li>same content is delivered to the user.</li>
+                        <li>faster</li>
+                        <li>no need of database</li>
+                        <li>created with client side languages.</li>
+                        <li>eg: News Website, Blog Website etc.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>changable</li>
+                        <li>content varies with user.</li>
+                        <li>slower than static</li>
+                        <li>Database is required to store user data.</li>
+                        <li>created with client side + Server side languages. eg-java,php,js etc.</li>
+                        <li>eg: Instagram, facebook , youtube etc.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h3>Client And Server</h3>
+        <table border="2px solid black">
+            <tr>
+                <td><h3>Client</h3></td>
+                <td><h3>Server</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>client is a user.</li>
+                        <li>client request for the desired files from the server.</li>
+                        <li>client needs browser like firefox, safari, chrome etc.</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>server is a software program.</li>
+                        <li>it recieves clients requests & responds to it by sending the user desired files.</li>
+                        <li>if the desired files is not present in the server then Error 404 (file not found) will be displayed.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h3>HTML</h3>
+        <ul>
+            <li>stands for 'Hypertext Markup Language'.</li>
+            <li>developed by 'Tim Berners Lee' in '1991'.</li>
+            <li>created with the help of SGML(Standard Generalized Markup Language) which is complex.</li>
+            <li>Started with 18 Tags.</li>
+            <li>Published in '1995' by 'W3C'(World Wide Web Consolitation).</li>
+            <li>current version is 'HTML 5' released in '2014' (110+ tags).</li>
+            <li>case insensitive language.</li>
+            <li>every html documnent must be saved with .html extension.</li>
+            <li>without html , a browser will not know how to display the things.</li>
+        </ul>
+
+        <h3>Basic Structure of HTML</h3>
+
+        <code><pre>
+        start(html)
+            start(head)
+                -> metadata and title 
+            end(head)
+    
+            start(body)
+                -> content to be displayed
+            end(body)
+        end(html)
+        </pre></code>
+        
+        <pre>    
+	&lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;I am title tag.&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;I am heading.&lt;/h1&gt;
+                &lt;h2&gt;I am heading 2.&lt;/h2&gt;
+                &lt;p&gt;
+                    I am paragraph tag.
+                &lt;p&gt;  
+            &lt;/body&gt;
+        &lt;/html&gt;	
+        </pre>
+        
+        <h3>Basic Tags</h3>
+        <ol>
+            <li>HTML
+                <ul>
+                    <li>it is root tag or root element.</li>
+                    <li>every html code must start with html tag.</li>
+                </ul>
+            </li>
+            <li>HEAD
+                <ul>
+                    <li>A metadata of a website or webpage should be written within head tag.</li>
+                </ul>
+            </li>
+            <li>BODY
+                <ul>
+                    <li>The content to be displayed should be written within body tag.</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <h3>Command Prompt</h3>
+        <ul>
+            <li>it is a input field in a text based user interface screen for performing some specific task.</li>
+            <li>cmd is case insensitive.</li>
+            <li>Directory : is a folder
+                <ol>
+                    <li>user home directory [C:,D:,E:etc]</li>
+                    <li>working directory [D:/user/html]</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h3>cmd commands</h3>
+        <ol>
+            <li> <b>cd</b> : change directory
+                <ul>
+                    <li>To move from one directory to another directory.</li>
+                    <li>eg: cd name_of_the_folder</li>
+                </ul>
+            </li><br>
+            
+            <li> <b>mkdir</b> : make directory
+                <ul>
+                    <li>To create a directory</li>
+                    <li>eg: mkdir name_of_the_folder</li>
+                </ul>
+            </li><br>
+
+            <li> <b>cd..</b> : to move to previous directory
+            </li><br>
+
+            <li> <b>cls</b> : to clear the screen.
+            </li><br>
+
+            <li> <b>rmdir</b> : remove/delete directory
+                <ul>
+                    <li>eg: rmdir name_of_the_folder</li>
+                </ul>
+            </li><br>
+
+            <li> <b>dir</b> : to list all the directories present in the current path.
+            </li><br>
+
+            <li> <b>C: , D:</b> : to move in different drive
+            </li><br>
+
+            <li> <b>code .</b> : to open selected path in vscode.
+            </li><br>
+        </ol>
+
+        <h3>Tag</h3>
+        <ul>
+            <li>Keyword enclosed within angular brackets.</li>
+            <li>syntax : &lt;Keyword&gt;</li>
+            <li>To mark start of the tag : &lt;Keyword&gt;</li>
+            <li>To mark end of the tag : &lt;/Keyword&gt;</li>
+        </ul>
+
+        <h3>Types Of Tags</h3>
+        <table border="2px">
+            <tr>
+                <td><strong>Container Tag / Paired Tag</strong></td>
+                <td><strong>Non-Container Tag / unpaired Tag/ Singleton Tag/ Singular Tag</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>needs closing</li>
+                        <li>contain same content </li>
+                        <li>need to write both opening and closing.</li>
+                        <li>eg : html, head, body</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>do not need closing </li>
+                        <li>no content</li>
+                        <li>only need to write opening tag.</li>
+                        <li>eg : br, img</li>
+                    </ul>
+                </td>
+            </tr>  
+        </table>
+
+        <h3>Title Tag</h3>
+        <ul>
+            <li>it is a container tag.</li>
+            <li>used to specify or provide title to the html document.</li>
+            <li>it will display on the top browser tab.</li>
+            <li>it is written inside head tag.</li>
+            <li>eg : title inside head of your html shows on the tab.</li>
+        </ul>
+
+        <h3>HTML Element</h3>
+        <ul>
+            <li>Element = opening tag + content + closing tag.</li>
+            <li>eg : 
+                <pre>
+                    &lt;body&gt; 
+                        I am a body tag
+                    &lt;/body&gt; 
+                </pre>
+            </li>
+        </ul>
+
+        <h3>HTML Attribute</h3>
+        <ul>
+            <li>Attribute is the property of a tag.</li>
+            <li>we apply attribute so that tag can behave in user desirable manner.</li>
+            <li>we have to apply attribute in the opening tag.</li>
+            <li>eg : 
+                <pre>
+                    &lt;body style="background-color:red"&gt; 
+                        I am a body 
+                    &lt;/body&gt; 
+                </pre>
+            </li>
+        </ul>
+
+        <h3>HTML Headings</h3>
+        <ul>
+            <li>used to create headings in html.</li>
+            <li>we have 6 types of heading tag. <br>
+                h1- biggest and most important. <br>
+                h6- smallest and least important.</li>
+            <li>h1 should be one only, it is not considered as a good practice to use h1 more than once.</li>
+        </ul>
+        <code><pre>
+            &lt;h1&gt;I am heading 1.&lt;/h1&gt;
+            &lt;h2&gt;I am heading 2.&lt;/h2&gt;
+            &lt;h3&gt;I am heading 3.&lt;/h3&gt;
+            &lt;h4&gt;I am heading 4.&lt;/h4&gt;
+            &lt;h5&gt;I am heading 5.&lt;/h5&gt;
+            &lt;h6&gt;I am heading 6.&lt;/h6&gt;
+        </pre></code>
+
+        <h3>Boilerplate</h3>
+        <ul>
+            <li>Basic structure of html generated using emmet tool.</li>
+            <li>emmet abbrivations are created for developers for fast coding.</li>
+            <li>shortcut: !(exclamation mark)</li>
+        </ul>
+
+        <h3><strong>Note</strong></h3>
+        <ol>
+            <li>Browser cannot view whitespaces so we have to use tags for providing spaces.</li>
+            <li>Browser automatically adds one line break before and after the heading Tag.</li>
+        </ol>
+
+        <h3>How to create paragraph in html</h3>
+        <code> <p> I am a paragraph tag </p> </code>
+    </body>
+</html>
